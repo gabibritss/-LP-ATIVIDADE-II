@@ -38,6 +38,7 @@ case 1:
 default:
 printf("numero primo");
     break;
+ return 0;
 }
 
 
