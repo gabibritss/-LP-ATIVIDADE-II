@@ -9,14 +9,14 @@ setlocale(LC_ALL, "portuguese");
 
 int codigo;
 
-printf("---------opções-----------.\n");
+printf("opções\n");
 printf("");
 
 printf(" 1- camisa R$: 29,99. \n");
 printf(" 2-  sapatos R$: 59,99. \n");
 printf (" 3- calça R$: 39,99. \n");
 printf("");
- printf("----------FIM----------. \n");
+ printf("FIM \n");
 
 
  printf("escolha um codigo:");
