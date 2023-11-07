@@ -1,44 +1,33 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
+int main() {
+    int numero; 
+    int i; 
+    int flag = 0;
 
-int main (){
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &numero);
 
-
-int numero;
-int i;
-int cont =0;
-
-printf("escolha um numero:");
-scanf("%d", &numero);
-
-
-switch (numero)
-{
-case 1:
-    if (numero<=1)
-    {
-        printf("nao e primo");
+    if (numero <= 1) {
+        printf("Numero nao primo\n");
+        return 0;
     }
-    else
-    {
-        for ( i = 2; i < numero; i++)
-        {
-            if (numero%i==0)
-            {
-                printf("nao e primo");
-            }
-            
+
+    for (i = 2; i <= numero / 2; ++i) {
+        if (numero % i == 0) {
+            flag = 1;
+            break;
         }
-        
     }
-    
-    break;
 
-default:
-printf("numero primo");
-    break;
- return 0;
+    switch (flag) {
+        case 0:
+            printf("Numero primo\n");
+            break;
+            default:
+            printf("Numero nao primo\n");
+            break;
+    }
+    return 0;
 }
-
-
