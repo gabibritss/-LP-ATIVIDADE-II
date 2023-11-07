@@ -8,7 +8,7 @@ int main()
     setlocale(LC_ALL, "portuguese");
 
    
-    char codgodeacessosalvo[200] = "senai123";
+    char codgodeacessosalvo[200] = "gabis";
     char codgodeacesso[200];
 
     while (1)
