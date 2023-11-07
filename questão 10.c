@@ -21,10 +21,10 @@ int main()
 
     system("cls|| clear");
 
-    printf("1 PARA SOMAR\n");
-    printf("2 PARA SUBTRAIR\n");
+    printf("1 Para somar\n");
+    printf("2 Para subtrair\n");
     printf("\n");
-    printf("ESCOLHA A OPÇÃO DE OPERAÇÃO: ");
+    printf("Escolha a opção de operação: ");
     scanf("%d", &conta);
 
     switch (conta)
