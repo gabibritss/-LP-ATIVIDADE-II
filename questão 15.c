@@ -16,7 +16,7 @@ int main() {
 
         switch (opcao) {
             case 0:
-                printf("Saindo do programa...\n");
+                printf("Saindo do programa\n");
                 return 0;
                 case 1:
                 printf("Digite a distância em quilômetros: ");
