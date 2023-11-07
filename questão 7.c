@@ -12,7 +12,7 @@ int main()
 
 
 
-    printf("---- M E N U ------\n");
+    printf("M E N U \n");
     printf(" 1 - Novo jogo\n");
     printf(" 2 - Carregar jogo\n");
     printf(" 3 - Configurações\n");
